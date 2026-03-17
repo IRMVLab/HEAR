@@ -1,9 +1,11 @@
-# HEAR
-
 <p align="center">
-  <strong>Towards the Vision-Sound-Language-Action Paradigm:</strong><br>
-  <strong>The HEAR Framework for Sound-Centric Manipulation</strong>
+  <img src="assets/logo3.png" alt="HEAR logo" width="220">
 </p>
+
+<h1 align="center">
+  Towards the Vision-Sound-Language-Action Paradigm:<br>
+  The HEAR Framework for Sound-Centric Manipulation
+</h1>
 
 <p align="center">
   Chang Nie, Tianchen Deng, Guangming Wang, Zhe Liu, Hesheng Wang

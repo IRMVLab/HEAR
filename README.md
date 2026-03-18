@@ -20,7 +20,9 @@
   |
   <a href="https://hear.irmv.top/#videos">Video Demos</a>
   |
-  <strong>Paper:</strong> Coming soon
+  <a href="https://arxiv.org/abs/2603.16086">arXiv</a>
+  |
+  <a href="https://arxiv.org/pdf/2603.16086.pdf">Paper PDF</a>
   |
   <a href="https://github.com/IRMVLab/HEAR">Code</a>
 </p>
@@ -188,10 +190,13 @@ This repository is currently being prepared for public release.
 If you find this project useful, please consider citing:
 
 ```bibtex
-@article{nie2026hear,
-  title   = {Towards the Vision-Sound-Language-Action Paradigm: The HEAR Framework for Sound-Centric Manipulation},
-  author  = {Nie, Chang and Deng, Tianchen and Wang, Guangming and Liu, Zhe and Wang, Hesheng},
-  year    = {2026},
-  note    = {Under review}
+@article{nie2026visionsoundlanguageactionparadigmhearframework,
+  title={Towards the Vision-Sound-Language-Action Paradigm: The HEAR Framework for Sound-Centric Manipulation},
+  author={Chang Nie and Tianchen Deng and Guangming Wang and Zhe Liu and Hesheng Wang},
+  year={2026},
+  eprint={2603.16086},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2603.16086},
 }
 ```

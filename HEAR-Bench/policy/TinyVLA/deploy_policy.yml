@@ -1,0 +1,15 @@
+# Basic experiment configuration (keep unchanged)
+policy_name: TinyVLA
+task_name: task_you_test
+task_config: null
+ckpt_setting: null
+seed: null
+instruction_type: unseen
+policy_conda_env: null
+
+# Add Parameters You Need
+state_path: ./checkpoints/task/dataset_stats.pkl
+model_base: ./checkpoints/InternVL3-1B/
+model_path: ./checkpoints/task/4000
+enable_lore: False
+setting: NULL

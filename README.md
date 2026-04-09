@@ -181,9 +181,16 @@ In the paper, OpenX-Sound is manually audited with **98.7% synchronization accur
 
 More qualitative demos are available on the [project page](https://hear.irmv.top/#videos).
 
-## Repository Status
+## Code Release
 
-This repository is currently being prepared for public release.
+This repository now contains the public HEAR benchmark release.
+
+- [`HEAR-Bench/`](HEAR-Bench/) provides the benchmark codebase built on top of RoboTwin 2.0.
+- [`HEAR-Bench/README.md`](HEAR-Bench/README.md) contains the full setup guide for installation, asset download, data collection, pi0 data processing, training, and evaluation.
+- HEAR-Bench reuses the standard RoboTwin simulator and asset pipeline. Users should follow the RoboTwin-style install flow inside `HEAR-Bench/`, then continue with the HEAR-specific data collection and evaluation steps.
+- HEAR-specific audio assets are already included in `HEAR-Bench/assets/audios/`, so no second asset package is required beyond the regular RoboTwin assets downloaded by the setup scripts.
+
+Run benchmark commands from `HEAR/HEAR-Bench` after cloning this repository.
 
 ## Citation
 

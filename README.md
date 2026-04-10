@@ -183,14 +183,20 @@ More qualitative demos are available on the [project page](https://hear.irmv.top
 
 ## Code Release
 
-This repository now contains the public HEAR benchmark release.
+This repository now contains both the public HEAR training code and the HEAR-Bench benchmark release.
 
+- [`hear/`](hear/) provides the HEAR training and inference codebase built on top of openpi, including the Qwen3-Omni PyTorch training path, dataset conversion tools, and release-ready install instructions.
+- [`hear/README.md`](hear/README.md) contains the full setup guide for dependencies, upstream openpi asset compatibility, Hugging Face weight downloads, training, and policy serving.
+- HEAR-specific public weights are released on Hugging Face:
+  - `biubiu2/HEAR-Qwen3-Omni-30B-A3B-Instruct-Pruned`
+  - `biubiu2/HEAR-Qwen3-0.6B`
+  - `biubiu2/HEAR-mimi`
 - [`HEAR-Bench/`](HEAR-Bench/) provides the benchmark codebase built on top of RoboTwin 2.0.
 - [`HEAR-Bench/README.md`](HEAR-Bench/README.md) contains the full setup guide for installation, asset download, data collection, pi0 data processing, training, and evaluation.
 - HEAR-Bench reuses the standard RoboTwin simulator and asset pipeline. Users should follow the RoboTwin-style install flow inside `HEAR-Bench/`, then continue with the HEAR-specific data collection and evaluation steps.
 - HEAR-specific audio assets are already included in `HEAR-Bench/assets/audios/`, so no second asset package is required beyond the regular RoboTwin assets downloaded by the setup scripts.
 
-Run benchmark commands from `HEAR/HEAR-Bench` after cloning this repository.
+Run training commands from `HEAR/hear` and benchmark commands from `HEAR/HEAR-Bench` after cloning this repository.
 
 ## Citation
 

@@ -1,0 +1,1 @@
+cp -r ./openpi/models_pytorch/transformers_replace/* $(python -c "import transformers; print(transformers.__path__[0])")

@@ -25,6 +25,8 @@
   <a href="https://arxiv.org/pdf/2603.16086.pdf">Paper PDF</a>
   |
   <a href="https://github.com/IRMVLab/HEAR">Code</a>
+  |
+  <a href="https://huggingface.co/datasets/biubiu2/OpenX-Sound">Dataset</a>
 </p>
 
 <p align="center">

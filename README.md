@@ -94,7 +94,7 @@ HEAR decouples high-frequency auditory sensing from low-frequency decision makin
 
 HEAR is supported by both training data and evaluation infrastructure:
 
-- **OpenX-Sound** augments selected Open X-Embodiment trajectories with synchronized audio for large-scale pretraining.
+- **OpenX-Sound** augments selected Open X-Embodiment trajectories with synchronized audio for large-scale pretraining. The released dataset is available on Hugging Face at [`biubiu2/OpenX-Sound`](https://huggingface.co/datasets/biubiu2/OpenX-Sound).
 - **HEAR-Bench** evaluates seven simulation tasks under strict sound-causal rules across four acoustic cue types: event-triggered alarms, human speech and prosody, continuous process sounds, and physical interaction feedback.
 
 In the paper, OpenX-Sound is manually audited with **98.7% synchronization accuracy within 100 ms tolerance**, and HEAR-Bench is designed so that acting before the required cue is always counted as failure.
@@ -191,6 +191,7 @@ This repository now contains both the public HEAR training code and the HEAR-Ben
   - `biubiu2/HEAR-Qwen3-Omni-30B-A3B-Instruct-Pruned`
   - `biubiu2/HEAR-Qwen3-0.6B`
   - `biubiu2/HEAR-mimi`
+- The OpenX-Sound dataset is released on Hugging Face: [`biubiu2/OpenX-Sound`](https://huggingface.co/datasets/biubiu2/OpenX-Sound).
 - [`HEAR-Bench/`](HEAR-Bench/) provides the benchmark codebase built on top of RoboTwin 2.0.
 - [`HEAR-Bench/README.md`](HEAR-Bench/README.md) contains the full setup guide for installation, asset download, data collection, pi0 data processing, training, and evaluation.
 - HEAR-Bench reuses the standard RoboTwin simulator and asset pipeline. Users should follow the RoboTwin-style install flow inside `HEAR-Bench/`, then continue with the HEAR-specific data collection and evaluation steps.

@@ -203,16 +203,13 @@ Run training commands from `HEAR/hear` and benchmark commands from `HEAR/HEAR-Be
 
 ## Citation
 
-If you find this project useful, please consider citing:
+This paper has been accepted by *The International Journal of Robotics Research (IJRR)*. If you find this project useful, please consider citing:
 
 ```bibtex
-@article{nie2026visionsoundlanguageactionparadigmhearframework,
+@article{nie2026hear,
   title={Towards the Vision-Sound-Language-Action Paradigm: The HEAR Framework for Sound-Centric Manipulation},
-  author={Chang Nie and Tianchen Deng and Guangming Wang and Zhe Liu and Hesheng Wang},
+  author={Nie, Chang and Deng, Tianchen and Wang, Guangming and Liu, Zhe and Wang, Hesheng},
+  journal={The International Journal of Robotics Research},
   year={2026},
-  eprint={2603.16086},
-  archivePrefix={arXiv},
-  primaryClass={cs.RO},
-  url={https://arxiv.org/abs/2603.16086},
 }
 ```
